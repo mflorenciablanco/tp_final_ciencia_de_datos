@@ -1,0 +1,4 @@
+.y.,group1,group2,estimate,conf.low,conf.high,p.adj,p.adj.signif
+apertura_comercial_log,A) Base (1990),B) Adhesión (2001),0.11876208918769127,-0.011179880044340285,0.24870405841972282,0.081,ns
+apertura_comercial_log,A) Base (1990),C) Post-OMC (2010),0.24733285524246273,0.11710810310344855,0.3775576073814769,3.03e-5,****
+apertura_comercial_log,B) Adhesión (2001),C) Post-OMC (2010),0.12857076605477147,0.00490221563465755,0.2522393164748854,0.039,*
