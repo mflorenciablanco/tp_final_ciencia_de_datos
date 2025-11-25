@@ -146,7 +146,7 @@ df_plot <- bind_rows(datos_crudos_plot, datos_limpios_plot)
 
 #definimos nuevas etiquetas
 facet_labels <- c(
-  "apertura_comercial" = "Apertura Comercial (índice)", 
+  "apertura_comercial" = "Apertura Comercial (en % del PBI)", 
   "ied_pct_pbi" = "IED (en % del PBI)",                         
   "pbi_crec" = "Crecimiento PBI (en %)"
 )
@@ -207,4 +207,5 @@ guardar_imagen(grafico_atipicos, ruta_grafico_atipicos, , width = 14, height = 7
 
 #aumento la cantidad de casos atipicos con la imputacion multiple. si los datos economicos 
 #son naturalmente volatiles,la imputacion multiple imita esa volatilidad, y por eso
+
 #aparecen nuevos outliers
