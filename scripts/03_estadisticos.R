@@ -147,5 +147,6 @@ tabla_cambio_porcentual <- df_resumen_estadistico %>%
   arrange(variable, año)
 
 #guardamos tabla
-ruta_cambio_pct<-file.path(dir_outputs_tables, "cambio_porcentual_estadisticos")
+ruta_cambio_pct<-file.path(dir_outputs_tables, "cambio_porcentual_estadisticos.csv")
 guardar_tabla(tabla_cambio_porcentual, ruta_cambio_pct)
+
