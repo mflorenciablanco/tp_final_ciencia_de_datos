@@ -22,7 +22,7 @@ dir_scripts<-file.path(proyecto_dir, "scripts")
 ruta_csv_raw <- file.path(dir_data_raw, "datos_crudos.csv") 
 datos_crudos <- readr::read_csv(ruta_csv_raw)
 
-#filtramos indicadores y años a anlizar
+#filtramos indicadores y años a analizar
 datos_filtrados <- datos_crudos %>% 
   select(-c(iso2c, capital,longitude, latitude, 
             income, lending, status, lastupdated,NE.EXP.GNFS.ZS, NE.IMP.GNFS.ZS)) %>% 
@@ -136,3 +136,4 @@ ruta_csv_raw <- file.path(dir_data_clean, "datos_limpios.csv")
 write.csv(datos_limpios, 
           file = ruta_csv_raw, 
           row.names = FALSE)
+
