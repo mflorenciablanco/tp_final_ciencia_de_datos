@@ -110,7 +110,7 @@ t.test(ied_pct_pbi ~ na_apertura, data = datos_filtrados)
 #ahora p value < 0.05, por lo tanto, rechazamos H0. Los datos faltantes de apertura comercial son MAR con respecto a la IED 
 
 
-#uilizamos la imputacion multiple como estrategia para reemplazar los NA
+#utilizamos la imputacion multiple como estrategia para reemplazar los NA
 datos_filtrados <- datos_filtrados %>%
   select(-na_apertura)
 
@@ -136,4 +136,5 @@ ruta_csv_raw <- file.path(dir_data_clean, "datos_limpios.csv")
 write.csv(datos_limpios, 
           file = ruta_csv_raw, 
           row.names = FALSE)
+
 
