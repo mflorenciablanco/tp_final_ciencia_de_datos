@@ -1,0 +1,19 @@
+dataset,año,variable,Media,Mediana,Moda,Desvio_Estandar,IQR
+Filtrado (con NAs),1990,apertura_comercial,69.822,58.185,39.437,45.785,41.084
+Limpio (Imputado),1990,apertura_comercial,76.467,61.216,149.448,49.989,45.867
+Filtrado (con NAs),2001,apertura_comercial,80.241,70.397,64.247,46.906,45.303
+Limpio (Imputado),2001,apertura_comercial,83.476,72.063,25.042,49.577,50.412
+Filtrado (con NAs),2010,apertura_comercial,90.522,78.623,75.533,62.037,48.791
+Limpio (Imputado),2010,apertura_comercial,96.51,82.226,404.771,69.973,51.941
+Filtrado (con NAs),1990,ied_pct_pbi,2.034,0.812,0.001,5.879,2.033
+Limpio (Imputado),1990,ied_pct_pbi,2.164,1.008,0.574,5.265,2.451
+Filtrado (con NAs),2001,ied_pct_pbi,5.917,2.331,0.024,28.215,3.813
+Limpio (Imputado),2001,ied_pct_pbi,5.462,2.051,-1.856,26.315,3.715
+Filtrado (con NAs),2010,ied_pct_pbi,12.171,2.941,1.203,57.132,4.93
+Limpio (Imputado),2010,ied_pct_pbi,14.355,2.951,4.259,64.111,5.005
+Filtrado (con NAs),1990,pbi_crec,2.971,3.457,-9.576,8.643,5.815
+Limpio (Imputado),1990,pbi_crec,2.817,3.348,3.074,8.286,5.46
+Filtrado (con NAs),2001,pbi_crec,3.22,2.957,-9.432,5.81,3.957
+Limpio (Imputado),2001,pbi_crec,3.411,3.074,3.658,5.706,3.984
+Filtrado (con NAs),2010,pbi_crec,4.119,4.112,14.362,4.454,4.969
+Limpio (Imputado),2010,pbi_crec,4.113,4.092,2.283,4.472,4.997
